@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<style>
+		.page {
+			background-image: url(./images/R-C.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+			width: 1460px;
+			height: 1000px;
+			z-index: 0;
+		}
+
+		.user {
+			display: flex;
+			align-items: center;
+			position: relative;
+			left: 11px;
+			background-color: white;
+			width: 1436px;
+			height: 95px;
+			border-radius: 0% 0% 20% 20%;
+			z-index: 1;
+			opacity: 0.3;
+			border: 3px solid black;
+			-webkit-box-shadow: 0px 10px 9px -5px rgba(0,0,0,0.32);
+			-moz-box-shadow: 0px 10px 9px -5px rgba(0,0,0,0.32);
+			box-shadow: 0px 10px 9px -5px rgba(0,0,0,0.32);
+		}
+		.user2{
+			display: flex;
+			align-items: center;
+			position: relative;
+			top: -100px;
+			left: 11px;
+			width: 1436px;
+			height: 95px;
+			z-index: 1;
+		}
+		.user2 img {
+			position: relative;
+			left: 150px;
+			width: 80px;
+			height: 80px;
+			border-radius: 100%;
+			opacity: 1;
+		}
+
+		.p1 {
+			margin-left: 300px;
+		}
+
+		.p2 {
+			margin-left: 160px;
+		}
+
+		.yinyue {
+			position: absolute;
+			right: 100px;
+			top: 100px;
+			border-radius: 100%;
+			transform: rotate(0deg);
+			animation: rotate-image 5s linear infinite;
+			z-index: 10;
+		}
+
+		.beijingmusic {
+			position: relative;
+			right: -530px;
+			bottom: -140px;
+			width: 240px;
+			height: 32px;
+			opacity: 1;
+
+		}
+
+		@keyframes rotate-image {
+			0% {
+				transform: rotate(60deg);
+			}
+
+			100% {
+				transform: rotate(360deg);
+			}
+		}
+
+		.daohang {
+			display: inline-block;
+			position: relative;
+			top: 16px;
+			left: 80px;
+			background-color: white;
+			width: 240px;
+			height: 638px;
+			-webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+			-moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+			box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+			opacity: 0.8;
+		}
+
+		.txt {
+			display: inline-block;
+			position: relative;
+			background-image: url(./images/6405924a_E806552_09250674.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: 957px;
+			height: 638px;
+			left: 175px;
+			top: 16px;
+			-webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+			-moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+			box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+			opacity: 0.8;
+		}
+	</style>
+	<body>
+		<div class="page">
+			<div class="user">
+			</div>
+			<div class="user2">
+				<img class="" src="./images/2c2c53e10fb6b50aa97f8545f92cdaa.jpg" alt="">
+				<p class="p1">自然风光</p>
+				<p class="p2">次元景色</p>
+				<audio class="beijingmusic" src="./audios/纯音乐 - 遇见 (钢琴版).mp3" controls autoplay></audio>
+			</div>
+			<img class="yinyue" src="./images/音乐.png" alt="">
+			<div class="daohang">
+
+			</div>
+			<div class="txt">
+
+			</div>
+		</div>
+
+	</body>
+</html>
